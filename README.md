@@ -27,8 +27,8 @@ Where each argument is
 
 2 files are created unless specified otherwhise:
 
-	- outputfile 1 is the exclusive file for fatal errors and execution-time issues with the code 
-	- outputfile 2 is a more detailed information about every job, the good ones and the bad ones and it depends on the patterns.
+* outputfile 1 is the exclusive file for fatal errors and execution-time issues with the code 
+* outputfile 2 is a more detailed information about every job, the good ones and the bad ones and it depends on the patterns.
 
 
 ### About patterns:
