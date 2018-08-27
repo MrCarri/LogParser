@@ -7,7 +7,7 @@ Getting Started
 
 Requeriments:
 
-  - Python 3 installed in your system / virtual enviroment
+	 Python 3 installed in your system / virtual enviroment
 
 To install the package, just run the setup.py script and it will copy automatically. 
 
@@ -21,7 +21,7 @@ Where each argument is
 	--workdir -wdr --> folder where we are going to start searching the .log files
 	--output -o    --> Where we want to store result files
 	--patterns -p  --> what we are looking for. Good examples are, "ERROR" , "WARNING" etc.
-  --extraf -ex   --> If we want an extra info file (True by default)
+  	--extraf -ex   --> If we want an extra info file (True by default)
   
 Another thing that should be beared in mind is that the keyword ERROR for the pattern is treated as an special case. 
 IF present, one of the output files would be dedicated exclusively to errors that end the execution, and the other one to the rest of info. 
