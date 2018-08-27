@@ -13,7 +13,7 @@ To install the package, just run the setup.py script and it will copy automatica
 
 The command for executing the tool is:
 
-  python3 lparser -wdr PATH -o OUTPUT -p PATTERN (OPTIONAL) -ex True / False 
+ 	python3 lparser -wdr PATH -o OUTPUT -p PATTERN (OPTIONAL) -ex True / False 
   
 
 Where each argument is
