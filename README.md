@@ -3,9 +3,9 @@
 LogParser is a software that works as a logging tool for fast analysis of a great quantity of logs.
 It's main target are bad terminated jobs, but can also search for user-defined patterns.
 
-Getting Started
+## Getting Started
 
-Requeriments:
+## Requeriments:
 
 	 Python 3 installed in your system / virtual enviroment
 
@@ -26,7 +26,7 @@ Where each argument is
 Another thing that should be beared in mind is that the keyword ERROR for the pattern is treated as an special case. 
 IF present, one of the output files would be dedicated exclusively to errors that end the execution, and the other one to the rest of info. 
 
-Built With
+## Built With
 
 
 	- Python 3
@@ -34,16 +34,16 @@ Built With
 	- Sequence matcher (difflib)
 
 
-Contributing
+## Contributing
 
 
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Authors
+## Authors
 
 
 	Alexandre Carrillo - main developer 
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
