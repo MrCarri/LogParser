@@ -27,19 +27,19 @@ Where each argument is
 
 2 files are created unless specified otherwhise:
 
-- outputfile 1 is the exclusive file for fatal errors and execution-time issues with the code 
-- outputfile 2 is a more detailed information about every job, the good ones and the bad ones and it depends on the patterns.
+	- outputfile 1 is the exclusive file for fatal errors and execution-time issues with the code 
+	- outputfile 2 is a more detailed information about every job, the good ones and the bad ones and it depends on the patterns.
 
 
 ### About patterns:
 
 Any keyword might be used, but the keyword  **"ERROR"** is the most important (not case sensitive). If set as a pattern, aall **Fatal Errors** will appear in the outputfile 1. The rest of the errors (possible controlled exceptions and other) will appear in output file 2, wich is optional, so -ex flag should be ommited or set to True.
 
-### About --extraf argument
+### About extraf argument:
 
 This argument is optional, it's main purpose is to not generate the optional textfile if we don't  have much space in disk, because It would be bigger than the main output file. 
 
-## Built With
+## Built With:
 
 
 	- Python 3
@@ -47,16 +47,16 @@ This argument is optional, it's main purpose is to not generate the optional tex
 	- Sequence matcher (difflib)
 
 
-## Contributing
+## Contributing:
 
 
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Authors
+## Authors:
 
 
 	Alexandre Carrillo - main developer 
 
-## License
+## License:
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
