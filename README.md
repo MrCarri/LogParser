@@ -9,19 +9,22 @@ It's main target are bad terminated jobs, but can also search for user-defined p
 
 	 Python 3 installed in your system / virtual enviroment
 
-To install the package, just run the setup.py script and it will copy automatically. 
+To install the package, just run the setup.py script and it will copy automatically.
+		
+	python3 setup.py install
 
 The command for executing the tool is:
 
- 	python3 lparser -wdr PATH -o OUTPUT -p PATTERN -ex True / False (OPTIONAL) 
+ 	python3 PATH_TO_LPARSER -wdr PATH -o OUTPUT -p PATTERN -ex True / False  
   
+  *default install route is **  /usr/local/lib/python3.6/dist-packages **
 
 Where each argument is
 
 	--workdir -wdr --> folder where we are going to start searching the .log files
 	--output -o    --> Where we want to store result files
 	--patterns -p  --> what we are looking for. Good examples are, "ERROR" , "WARNING" etc.
-  	--extraf -ex   --> If we want an extra info file (True by default)
+  	--extraf -ex   --> If we want an extra info file 
  
 ### About outputFiles:
 
@@ -37,7 +40,7 @@ Any keyword might be used, but the keyword  **"ERROR"** is the most important (n
 
 ### About extraf argument:
 
-This argument is optional, it's main purpose is to not generate the optional textfile if we don't  have much space in disk, because It would be bigger than the main output file. 
+This argument main purpose is to not generate the optional textfile if we don't  have much space in disk, because It would be bigger than the main output file. 
 
 ## Built With:
 
