@@ -106,6 +106,5 @@ def print_rest(rest, output_file):
 
     output.close()
 
-
-        
-        
+if __name__ == "__main__":
+    pass

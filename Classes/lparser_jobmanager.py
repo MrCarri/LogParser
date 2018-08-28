@@ -161,3 +161,6 @@ class manager:
                     
                     failed_jobs[job.crash_culprit].append(job)
         return failed_jobs
+
+if __name__ == "__main__":
+    pass

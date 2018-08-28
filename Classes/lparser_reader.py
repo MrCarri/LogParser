@@ -33,5 +33,5 @@ def find_directiories(start_dir):
 
     return files
 
-
-
+if __name__ == "__main__":
+    pass

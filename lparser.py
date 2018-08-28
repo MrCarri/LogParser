@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import sys
-from classes import *
+from classes import reader, job_manager, writer
 import argparse
 import os
 

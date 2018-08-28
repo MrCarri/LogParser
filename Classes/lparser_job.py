@@ -135,3 +135,5 @@ class job:
         return None # if its irrelevant, we simply return None
 
 
+if __name__ == "__main__":
+    pass
