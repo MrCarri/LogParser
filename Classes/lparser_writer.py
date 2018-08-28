@@ -108,5 +108,3 @@ def print_rest(rest, output_file):
 
 if __name__ == "__main__":
     pass
-        
- 
