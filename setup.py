@@ -12,17 +12,15 @@ setup(
     author_email="alexandre.carrillo@e-campus.uab.cat",
 
     # Packages
-    packages=["classes"],
+    packages=["Classes"],
 
     # Include additional files into the package
     include_package_data=True,
 
-    # Details
-    #url="http://pypi.python.org/pypi/MyApplication_v010/",
-
+    
     #
     license="LICENSE.txt",
-    description="Useful towel-related stuff.",
+    
 
     long_description=open("README.md").read(),
 
