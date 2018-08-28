@@ -1,7 +1,7 @@
 # LogParser
 
 LogParser is a software that works as a logging tool for fast analysis of a great quantity of logs.
-It's main target are bad terminated jobs, but can also search for user-defined patterns.
+It's main target are bad terminated jobs, but can also search for user-defined patterns. The idea is to make a summary of python Logs making the debugging easier. 
 
 ## Getting Started
 
