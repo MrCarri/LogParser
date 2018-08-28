@@ -17,7 +17,7 @@ The command for executing the tool is:
 
  	python3 PATH_TO_LPARSER -wdr PATH -o OUTPUT -p PATTERN -ex True / False  
   
-*default install route is **/usr/local/lib/python3.6/dist-packages**
+*default install route is **/usr/local/lib/python3.6/dist-packages/lparser/lparser.py**, you can add shortcuts manually, or give it execution permissions.
 
 Where each argument is
 
