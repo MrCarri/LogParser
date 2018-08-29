@@ -9,7 +9,9 @@ It's main target are bad terminated jobs, but can also search for user-defined p
 
 	 Python 3 installed in your system / virtual enviroment
 
-To install the package, just run the setup.py script and it will copy automatically.
+First, clone the repository in your system or go to releases and download the .zip with all the package prepared.
+
+To install the package, just run the setup.py script inside the .zip and it will copy automatically.
 		
 	python3 setup.py install
 
