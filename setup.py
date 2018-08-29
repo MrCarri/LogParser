@@ -24,5 +24,5 @@ setup(
 
     long_description=open("README.md").read(),
 
-    
+    scripts=['lparser/lparser_main.py']    
 )
