@@ -13,11 +13,9 @@ To install the package, just run the setup.py script and it will copy automatica
 		
 	python3 setup.py install
 
-The command for executing the tool is:
+The example command for executing the tool is:
 
  	python3 PATH_TO_LPARSER -wdr PATH -o OUTPUT -p PATTERN -ex True / False  
-  
-*default install route is **/usr/local/lib/python3.6/dist-packages/lparser/lparser.py**, you can add shortcuts manually, or give it execution permissions.
 
 Where each argument is
 
@@ -25,22 +23,27 @@ Where each argument is
 	--output -o    --> Where we want to store result files
 	--patterns -p  --> what we are looking for. Good examples are, "ERROR" , "WARNING" etc.
   	--extraf -ex   --> If we want an extra info file 
- 
+
+
+## About the different arguments:
+
+Every execution argument is optional. If --output or --workdir are not specified, the current directory would be taken. If pattern is empty, it will use the default, which is "ERROR". If -ex, it will generate outputfile 2
+
+### About patterns:
+
+The important pattern is "ERROR" in order to detect fatal errors, but others can be specified (whatever you want to search, for example "WARN" "CITICAL" or "EXCEPTION"). If its the case, remember to add -ex, for generating a second file for the non fatal error patterns we are looking for. It's not case sensitive.
+
+
 ### About outputFiles:
 
-2 files are created unless specified otherwhise:
+2 files can be created, depending on --extraf argument
 
 * outputfile 1 is the exclusive file for fatal errors and execution-time issues with the code 
 * outputfile 2 is a more detailed information about every job, the good ones and the bad ones and it depends on the patterns.
 
 
-### About patterns:
 
-Any keyword might be used, but the keyword  **"ERROR"** is the most important (not case sensitive). If set as a pattern, aall **Fatal Errors** will appear in the outputfile 1. The rest of the errors (possible controlled exceptions and other) will appear in output file 2, wich is optional, so -ex flag should be ommited or set to True.
 
-### About extraf argument:
-
-This argument main purpose is to not generate the optional textfile if we don't  have much space in disk, because It would be bigger than the main output file. 
 
 ## Built With:
 
