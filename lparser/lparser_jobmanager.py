@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import lparser_job as job
+from lparser import lparser_job as job
 
 class manager:
 
@@ -33,7 +33,7 @@ class manager:
 
             dictionary with all errors found
         """
-
+        n_files_procesed = 0
         for file in file_list:
             opened_file = open(file, "r")
             job = self.add_newjob(file) # we add a job for each file
@@ -45,6 +45,8 @@ class manager:
                 line_before = line
         
             opened_file.close()
+            n_files_procesed += 1
+            print(str(n_files_procesed)+ "/" + str(len(file_list)) + " Logs Completed "+ "\r" , end="") # progress bar
 
         
         self.print_ratios()
